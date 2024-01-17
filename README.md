@@ -12,7 +12,10 @@
 
 | Command | Description |
 | ------- | ----------- |
-| `git init` | Initialize a local Git repository |
+| `mkdir my_repo` | Creating a new directory for the repository |
+| `git init` | Initializing a new Git repository  |
+| `cd my_repo` | Navigating into the directory |
+| `git clone <remote_url>` | Cloning a repository from a remote URL |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
 ### Basic Snapshotting
