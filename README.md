@@ -13,8 +13,8 @@
 | Command | Description |
 | ------- | ----------- |
 | `mkdir my_repo` | Creating a new directory for the repository |
-| `git init` | Initializing a new Git repository  |
 | `cd my_repo` | Navigating into the directory |
+| `git init` | Initializing a new Git repository  |
 | `git clone <remote_url>` | Cloning a repository from a remote URL |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
@@ -24,9 +24,12 @@
 | ------- | ----------- |
 | `git status` | Check status |
 | `git add [file-name.txt]` | Add a file to the staging area |
-| `git add -A` | Add all new and changed files to the staging area |
+| `git add .` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
+| `git commit --amend -m "[commit message]"` | Change a commit with a message |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
+| `git rm --cached <file-name>` | Removing a file from the staging area |
+| `git reset <file-name>` | Resetting changes of a file in the working directory to the last committed state |
 
 ### Branching & Merging
 
