@@ -18,6 +18,31 @@
 | `git clone <remote_url>` | Cloning a repository from a remote URL |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
+
+![image](https://github.com/amer787/Git-Commands-/assets/46135816/5e3d54bf-b37d-40af-8cc7-72f305139b5d)
+
+### Checkout
+| Command | Description |
+| ------- | ----------- |
+| `git checkout <branch>` | Switches to a different branch. |
+| `git checkout <commit>` | Moves to a specific commit in "detached HEAD" state. |
+| `git checkout -- <file>` | Discards changes in the working directory for a specific file. |
+
+### Reverting
+| Command | Description |
+| ------- | ----------- |
+| `git revert <commit>` | Purpose: Used to create a new commit that undoes the changes made by a specific commit. |
+
+### Resetting
+| Command | Description |
+| ------- | ----------- |
+| `git reset --soft <commit>` | Moves the HEAD and branch pointer to a specific commit, keeping changes staged. |
+| `git reset --mixed <commit>` | Moves the HEAD and branch pointer to a specific commit, unstaging changes. |
+| `git reset --hard <commit>` | Moves the HEAD and branch pointer to a specific commit, discarding changes in the working directory. |
+
+
+
+
 ### Basic Snapshotting
 
 | Command | Description |
